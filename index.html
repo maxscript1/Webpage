@@ -25,8 +25,6 @@
     <link rel="stylesheet" href="css/aos.css">
     <link href='css/aos-animation.css' rel='stylesheet prefetch' type="text/css" media="all" />
 
-    
-
     <!-- Style-CSS -->
     <!-- font-awesome-icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -91,8 +89,8 @@
                 <div class="row banner-grids">
                     <div class="col-lg-6 banner-info">
                         <h2 data-aos="fade-up">DUNCAN ROBOTICS</h2>
-                        <h3 class="mb-3" data-aos="fade-up">CSF CLUB</h3>
-                        <p class="mb-4" data-aos="fade-up">THE CALIFORNIA SCHOLARSHIP FEDERATION</p>
+                        <h3 class="mb-3" data-aos="fade-up">3970</h3>
+                        <p class="mb-4" data-aos="fade-up">DUNCAN DYNAMICS!</p>
                     </div>
                     </div>
                 </div>
@@ -159,11 +157,11 @@
                             </div>
                         </div>
                         <div class="col-lg-6 p-0">
-                            <img src="images/photo CSF Seniors.jpg" class="img-fluid" alt="" data-aos="fade-left">
+                            <img src="images/Fortress 1.png" class="img-fluid" alt="" data-aos="fade-left">
                         </div>
 						
 						<div class="col-lg-6 p-0">
-                            <img src="images/photo CSF Seniors.jpg" class="img-fluid" alt="" data-aos="fade-right">
+                            <img src="images/Mantis.png" class="img-fluid" alt="" data-aos="fade-right">
                         </div>
 						<div class="col-lg-6 serv_bottom">
                             <div class="featured-right text-center">
@@ -186,11 +184,11 @@
                             </div>
                         </div>
                         <div class="col-lg-6 p-0">
-                            <img src="images/photo CSF Seniors.jpg" class="img-fluid" alt="" data-aos="fade-left">
+                            <img src="images/Scorpio.png" class="img-fluid" alt="" data-aos="fade-left">
                         </div>
 
                         <div class="col-lg-6 p-0">
-                            <img src="images/photo CSF Seniors.jpg" class="img-fluid" alt="" data-aos="fade-right">
+                            <img src="images/Zippy.png" class="img-fluid" alt="" data-aos="fade-right">
                         </div>
 						<div class="col-lg-6 serv_bottom">
                             <div class="featured-right text-center">
@@ -213,11 +211,11 @@
                             </div>
                         </div>
                         <div class="col-lg-6 p-0">
-                            <img src="images/photo CSF Seniors.jpg" class="img-fluid" alt="" data-aos="fade-left">
+                            <img src="images/Cubert.png" class="img-fluid" alt="" data-aos="fade-left">
                         </div>
 
                         <div class="col-lg-6 p-0">
-                            <img src="images/photo CSF Seniors.jpg" class="img-fluid" alt="" data-aos="fade-right">
+                            <img src="images/2018.png" class="img-fluid" alt="" data-aos="fade-right">
                         </div>
 						<div class="col-lg-6 serv_bottom">
                             <div class="featured-right text-center">
@@ -262,7 +260,7 @@
     
                     <div class="col-md-3 team-gd second text-center" data-aos="fade-up">
                         <div class="team-img mb-4">
-                            <img src="images/joel2.png" class="img-fluid rounded-circle" alt="61070139">
+                            <img src="images/joel.png" class="img-fluid rounded-circle" alt="61070139">
                         </div>
                         <div class="team-info">
                             <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Programming/Electrical/CAD</span> Joel</h3>
@@ -273,7 +271,7 @@
                     
                     <div class="col-md-3 team-gd text-center" data-aos="fade-up">
                         <div class="team-img mb-4">
-                            <img src="images/raul2.png" class="img-fluid rounded-circle" alt="61070220">
+                            <img src="images/raul.png" class="img-fluid rounded-circle" alt="61070220">
                         </div>
                         <div class="team-info">
                             <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">CAD(Digital Design)</span> Raul</h3>
@@ -310,17 +308,6 @@
                         </div>
                         <div class="team-info">
                             <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Electrical</span> Nick</h3>
-                            <ul class="social_section_1info mt-md-4 mt-3">
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 team-gd forth text-center" data-aos="fade-up-left">
-                        <div class="team-img mb-4">
-                            <img src="images/juan.png" class="img-fluid rounded-circle" alt="61070260">
-                        </div>
-                        <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">CAD/Electrical/Design</span> Juan</h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                             </ul>
                         </div>
@@ -559,62 +546,59 @@
 <!-- Move this script to the end of your HTML body -->
 <!-- Move this script to the end of your HTML body -->
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-    var typewriterText = document.querySelector('.banner h2');
-    var blinkingCursor = document.createElement('span');
-    blinkingCursor.className = 'blinking-cursor';
-    blinkingCursor.innerHTML = '|'; // Set the cursor content
-    blinkingCursor.style.color = 'white'; // Set the cursor color to white
-    typewriterText.parentNode.insertBefore(blinkingCursor, typewriterText.nextSibling);
-
-    var phrases = ['DUNCAN CSF CLUB', 'California Scholarship Federation (CSF)', 'Scholarly Visionaries of the Future'];
-    var currentPhraseIndex = 0;
-    var currentCharacterIndex = 0;
-    var delayBetweenCharacters = 200;
-    var delayAfterComplete = 1000; // 1 second delay after completing a word
-
-    // Clear existing content
-    typewriterText.innerHTML = '';
-
-    function typeWriter() {
-        if (currentCharacterIndex < phrases[currentPhraseIndex].length) {
-            typewriterText.innerHTML += phrases[currentPhraseIndex].charAt(currentCharacterIndex);
-            currentCharacterIndex++;
-            updateCursor(); // Update cursor position after typing each character
-            setTimeout(typeWriter, delayBetweenCharacters);
-        } else {
-            setTimeout(function () {
-                eraseText();
-            }, delayAfterComplete);
+    document.addEventListener('DOMContentLoaded', function () {
+        var typewriterText = document.querySelector('.banner h2');
+        var blinkingCursor = document.createElement('span');
+        blinkingCursor.className = 'blinking-cursor';
+        blinkingCursor.innerHTML = '|'; // Set the cursor content
+        blinkingCursor.style.color = 'white'; // Set the cursor color to white
+        typewriterText.parentNode.insertBefore(blinkingCursor, typewriterText.nextSibling);
+    
+        var phrases = ['DUNCAN ROBOTICS', 'DUNCAN DYNAMICS', '3970 ROBOTICS'];
+        var currentPhraseIndex = 0;
+        var currentCharacterIndex = 0;
+        var delayBetweenCharacters = 200;
+        var delayAfterComplete = 1000; // 1 second delay after completing a word
+    
+        // Clear existing content
+        typewriterText.innerHTML = '';
+    
+        function typeWriter() {
+            if (currentCharacterIndex < phrases[currentPhraseIndex].length) {
+                typewriterText.innerHTML += phrases[currentPhraseIndex].charAt(currentCharacterIndex);
+                currentCharacterIndex++;
+                updateCursor();
+                setTimeout(typeWriter, delayBetweenCharacters);
+            } else {
+                setTimeout(function () {
+                    eraseText();
+                }, delayAfterComplete);
+            }
         }
-    }
-
-    function eraseText() {
-        if (currentCharacterIndex > 0) {
-            typewriterText.innerHTML = phrases[currentPhraseIndex].substring(0, currentCharacterIndex - 1);
-            currentCharacterIndex--;
-            updateCursor(); // Update cursor position after erasing each character
-            setTimeout(eraseText, delayBetweenCharacters / 2);
-        } else {
-            currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
-            setTimeout(typeWriter, delayBetweenCharacters);
+    
+        function eraseText() {
+            if (currentCharacterIndex > 0) {
+                typewriterText.innerHTML = phrases[currentPhraseIndex].substring(0, currentCharacterIndex - 1);
+                currentCharacterIndex--;
+                updateCursor();
+                setTimeout(eraseText, delayBetweenCharacters / 2);
+            } else {
+                currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
+                setTimeout(typeWriter, delayBetweenCharacters);
+            }
         }
-    }
-
-    function updateCursor() {
-        // Get the position of the text and set the cursor's top position accordingly
-        var textRect = typewriterText.getBoundingClientRect();
-        var textWidth = typewriterText.offsetWidth;
-        var cursorWidth = blinkingCursor.offsetWidth;
-        blinkingCursor.style.top = textRect.top + 'px';
-        blinkingCursor.style.left = (textRect.left + textWidth) + 'px'; // Update cursor's left position to be just after the text
-    }
-
-    // Start the typing animation
-    typeWriter();
-});
-
-
+    
+        function updateCursor() {
+            // Get the position of the text and set the cursor's top position accordingly
+            var textRect = typewriterText.getBoundingClientRect();
+            blinkingCursor.style.top = textRect.top + 'px';
+            blinkingCursor.style.left = typewriterText.offsetWidth + 'px';
+        }
+    
+        // Start the typing animation
+        typeWriter();
+    });
+    
     </script>
     
 
