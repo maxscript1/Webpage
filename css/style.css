@@ -73,7 +73,7 @@ header {
 /*-- header --*/
 .logo {
     display: inline-block;
-    background-image: url(..//images/Stalion_Number_4.png);
+    background-image: url(..//images/CaliforniaScholarshipFederationClub-removebg-preview.png);
     background-size: contain; /* or 'cover' depending on your preference */
     background-repeat: no-repeat; /* prevent the background image from repeating */
     width: 150px; /* Adjust the width as needed */
@@ -84,9 +84,10 @@ header {
 
 
 #navlogo {
-	width:60px;
-   height:60px;
-
+	width:140px;
+   height:80px;
+    margin-top: 10px;
+    margin-right: 50px;
 }
 /* Add this to your existing CSS or in a new style tag */
 .fixed-top {
@@ -97,15 +98,6 @@ header {
     background-color: #fff; /* Adjust this to match your background color */
     border-bottom: 1px solid #ddd; /* Optional: Add a border at the bottom */
     transition: top 0.3s; /* Add smooth transition effect */
-}
-
-.blinking-cursor {
-    display: inline-block;
-    width: 0.1em;
-    height: 1.6em;
-    background-color: transparent;
-    border-left: 0.3em solid;
-    animation: blink 1s infinite;
 }
 
 
@@ -329,7 +321,7 @@ header {
 }
 
 #home {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/pixel.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/photo\ CSF\ Seniors.jpg);
     background-attachment: fixed;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -340,7 +332,7 @@ header {
 
 section.banner {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/pixel.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/photo\ CSF\ Seniors.jpg);
 	 background-attachment: fixed;
     background-position: center bottom;
     background-repeat: no-repeat;
